@@ -22,7 +22,7 @@ public class Homepage {
 	@FindBy(xpath="//tr[3]//input[@type=\"submit\"]") public WebElement chooseflight;
 	@FindBy(xpath="//p[contains(text(),'Total Cost: ')]") public WebElement totalcost;
 	@FindBy(xpath="//input[@value=\"Purchase Flight\"]") public WebElement purchase;
-	@FindBy(xpath="//tbody//tr[1]//td[2]1") public WebElement id;
+	@FindBy(xpath="//tbody//tr[1]//td[2]") public WebElement id;
 	
 	
 	
