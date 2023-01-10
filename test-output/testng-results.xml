@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-10T12:09:09 IST" name="Default suite" finished-at="2023-01-10T12:09:25 IST" duration-ms="15994">
+  <suite started-at="2023-01-10T13:47:35 IST" name="Suite" finished-at="2023-01-10T13:47:49 IST" duration-ms="13567">
     <groups>
     </groups>
-    <test started-at="2023-01-10T12:09:09 IST" name="Default test" finished-at="2023-01-10T12:09:25 IST" duration-ms="15994">
+    <test started-at="2023-01-10T13:47:35 IST" name="Test" finished-at="2023-01-10T13:47:49 IST" duration-ms="13567">
       <class name="com.blazedemo.testcases.Homepage_testclass">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.Homepage_testclass@55a147cc]" started-at="2023-01-10T12:09:07 IST" name="setup" finished-at="2023-01-10T12:09:09 IST" duration-ms="1917" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.testcases.Homepage_testclass@55a147cc]" started-at="2023-01-10T13:47:33 IST" name="setup" finished-at="2023-01-10T13:47:35 IST" duration-ms="1823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="startapp()[pri:0, instance:com.blazedemo.testcases.Homepage_testclass@55a147cc]" started-at="2023-01-10T12:09:09 IST" name="startapp" finished-at="2023-01-10T12:09:16 IST" duration-ms="6517" status="PASS">
+        <test-method is-config="true" signature="startapp()[pri:0, instance:com.blazedemo.testcases.Homepage_testclass@55a147cc]" started-at="2023-01-10T13:47:35 IST" name="startapp" finished-at="2023-01-10T13:47:41 IST" duration-ms="6092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startapp -->
-        <test-method signature="homepage()[pri:0, instance:com.blazedemo.testcases.Homepage_testclass@55a147cc]" started-at="2023-01-10T12:09:16 IST" name="homepage" finished-at="2023-01-10T12:09:23 IST" duration-ms="7172" status="FAIL">
+        <test-method signature="homepage()[pri:0, instance:com.blazedemo.testcases.Homepage_testclass@55a147cc]" started-at="2023-01-10T13:47:41 IST" name="homepage" finished-at="2023-01-10T13:47:46 IST" duration-ms="5084" status="FAIL">
           <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
-              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //tbody//tr[1]//td[2]1 because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//tbody//tr[1]//td[2]1' is not a valid XPath expression.
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //tr[3]//input[@type="submit"1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//tr[3]//input[@type="submit"1]' is not a valid XPath expression.
   (Session info: chrome=108.0.5359.125)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
 Build info: version: '4.5.3', revision: '4b786a1e430'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [01a05b32e68379cb1ec0dd826d8f4ebc, findElement {using=xpath, value=//tbody//tr[1]//td[2]1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shubh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52791/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 01a05b32e68379cb1ec0dd826d8f4ebc]]>
+Command: [d0f5420c4337eff16c3a60c1bcad422c, findElement {using=xpath, value=//tr[3]//input[@type="submit"1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shubh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53925/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0f5420c4337eff16c3a60c1bcad422c]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //tbody//tr[1]//td[2]1 because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//tbody//tr[1]//td[2]1' is not a valid XPath expression.
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //tr[3]//input[@type="submit"1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//tr[3]//input[@type="submit"1]' is not a valid XPath expression.
   (Session info: chrome=108.0.5359.125)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
 Build info: version: '4.5.3', revision: '4b786a1e430'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [01a05b32e68379cb1ec0dd826d8f4ebc, findElement {using=xpath, value=//tbody//tr[1]//td[2]1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shubh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52791/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 01a05b32e68379cb1ec0dd826d8f4ebc
+Command: [d0f5420c4337eff16c3a60c1bcad422c, findElement {using=xpath, value=//tr[3]//input[@type="submit"1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shubh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53925/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0f5420c4337eff16c3a60c1bcad422c
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -57,9 +57,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy19.getText(Unknown Source)
-at com.blazedemo.pages.Homepage.getid(Homepage.java:87)
-at com.blazedemo.testcases.Homepage_testclass.homepage(Homepage_testclass.java:47)
+at com.sun.proxy.$Proxy19.click(Unknown Source)
+at com.blazedemo.pages.Homepage.clickonchooseflight(Homepage.java:68)
+at com.blazedemo.testcases.Homepage_testclass.homepage(Homepage_testclass.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -94,7 +94,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepage -->
-        <test-method is-config="true" signature="getsceenshots(org.testng.ITestResult)[pri:0, instance:com.blazedemo.testcases.Homepage_testclass@55a147cc]" started-at="2023-01-10T12:09:23 IST" name="getsceenshots" finished-at="2023-01-10T12:09:24 IST" duration-ms="906" status="PASS">
+        <test-method is-config="true" signature="getsceenshots(org.testng.ITestResult)[pri:0, instance:com.blazedemo.testcases.Homepage_testclass@55a147cc]" started-at="2023-01-10T13:47:46 IST" name="getsceenshots" finished-at="2023-01-10T13:47:47 IST" duration-ms="847" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,11 +105,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getsceenshots -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.blazedemo.testcases.Homepage_testclass@55a147cc]" started-at="2023-01-10T12:09:24 IST" name="teardown" finished-at="2023-01-10T12:09:25 IST" duration-ms="1294" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.blazedemo.testcases.Homepage_testclass@55a147cc]" started-at="2023-01-10T13:47:47 IST" name="teardown" finished-at="2023-01-10T13:47:49 IST" duration-ms="1467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.blazedemo.testcases.Homepage_testclass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

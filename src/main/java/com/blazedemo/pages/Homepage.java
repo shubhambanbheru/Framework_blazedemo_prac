@@ -19,7 +19,7 @@ public class Homepage {
 	@FindBy(xpath="//select[@name=\"fromPort\"]/option[6]") public WebElement mexicocity;
 	@FindBy(xpath="//select[@name=\"toPort\"]/option[3]") public WebElement london;
 	@FindBy(xpath="//input[@type=\"submit\"]") public WebElement clickonfindflights;
-	@FindBy(xpath="//tr[3]//input[@type=\"submit\"1]") public WebElement chooseflight;
+	@FindBy(xpath="//tr[3]//input[@type=\"submit\"]") public WebElement chooseflight;
 	@FindBy(xpath="//p[contains(text(),'Total Cost: ')]") public WebElement totalcost;
 	@FindBy(xpath="//input[@value=\"Purchase Flight\"]") public WebElement purchase;
 	@FindBy(xpath="//tbody//tr[1]//td[2]") public WebElement id;
